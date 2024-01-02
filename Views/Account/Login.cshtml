@@ -1,0 +1,78 @@
+﻿
+
+@{
+    ViewBag.Title = "Log in";
+}
+
+@{
+    Layout = null;
+}
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="DeAcero">
+
+    <!--ELIMINAR LAS SIGUIENTES LINEAS UNA VEZ QUE ESTÉ EN PRODUCCIÓN (no almacenar caché)-->
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <!--*******-->
+    <link rel="shortcut icon" href="~/Images/hgi.ico">
+    <title>Acerias</title>
+
+    <link href="~/Content/icomoon/style.css" rel="stylesheet" />
+    <!-- App css -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <!-- custom css -->
+    <link href="~/Content/main.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <!-- Main Container start -->
+    <div class="main-container">
+        <div class="row">
+            <form class="login-wrapper" method="POST" id="frmLogin">
+                <div class="header">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 style="text-align:center"><img src="~/Images/deacero_black.png" alt="Logo" class="img-fluid" style="max-width: 50%"></h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="form-group">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input class="input col-md-12 col-sm-12 input-sm" type="text" placeholder="Usuario" name="user" id="user" required="required" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <input class="input col-md-12 col-sm-12 input-sm" type="password" placeholder="Contraseña" name="password" id="password" required="required" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <label class="col-md-12 col-sm-12" id="message" style="color:red; display:none;"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="actions">
+                    <button type="submit" class="btn btn-danger">Iniciar sesión</button>
+                    <a class="link" href="#">¿OLVIDASTE TU CONTRASEÑA?</a>
+                    <div class="clearfix"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Main Container end -->
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="~/Scripts/Modules/General/GeneralFunctions.js"></script>
+    <script src="~/Scripts/Modules/Account/Login.js"></script>
+</body>
+</html>

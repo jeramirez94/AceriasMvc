@@ -1,0 +1,199 @@
+﻿
+<link href="~/Content/lib/daterangepicker.css" rel="stylesheet" />
+<link href="~/Content/lib/select2.min.css" rel="stylesheet" />
+<style>
+    .row {
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Coladas por rango de fechas</h5>
+            </div>
+            <div class="ibox-content">
+                
+                <div class="row" style="margin: 0px">
+                    <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="radioOption">
+                            <label class="radio-inline">
+                                <input type="radio" name="optionsRadios" id="optFecha" value="1" checked=""> Por Fechas &nbsp;
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="optionsRadios" id="optColada" value="0"> Por Colada
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    
+                    <div class="col-lg-3 col-xl-3 col-md-3 col-sm-6 col-xs-6 divFechas">
+                        <label for="FechaInicial" class="form-label">Fecha inicial</label>
+                        <input type="text" class="form-control input-sm calendar required_value" id="FechaInicial" name="FechaInicial">
+                    </div>
+                    <div class="col-lg-3 col-xl-3 col-md-3 col-sm-6 col-xs-6 divFechas">
+                        <label for="FechaFinal" class="form-label">Fecha final</label>
+                        <input type="text" class="form-control input-sm calendar required_value" id="FechaFinal" name="FechaFinal">
+                    </div>                                        
+                    <div class="col-lg-3 col-xl-3 col-md-3 col-sm-6 col-xs-6 divColadas">
+                        <label for="ColadaInicial" class="form-label">Colada inicial</label>
+                        <input type="text" class="form-control input-sm  required_value" id="ColadaInicial" name="ColadaInicial">
+                    </div>
+                    <div class="col-lg-3 col-xl-3 col-md-3 col-sm-6 col-xs-6 divColadas">
+                        <label for="ColadaFinal" class="form-label">Colada final</label>
+                        <input type="text" class="form-control input-sm required_value" id="ColadaFinal" name="ColadaFinal">
+                    </div>
+                    <div class="col-lg-3 col-xl-3 col-md-3 col-sm-6 col-xs-6">
+                        <label for="ClaHorno" class="form-label mx-sm-1">Horno</label>
+                        <select class="form-control  required_value" id="ClaHorno" name="ClaHorno" required="required"></select>
+                    </div>
+                    <div class="col-lg-3 col-xl-3 col-md-3 col-sm-6 col-xs-6">
+                        <label for="ClaTurno" class="form-label mx-sm-1">Turno</label>
+                        <select class="form-control  required_value" id="ClaTurno" name="ClaTurno" required="required"></select>
+                    </div>
+                </div>
+
+                <div class="row" style="margin: 0px">
+                    <div class="col-12 ">
+                        <button id="btnCaracterizar" type="button" class="btn btn-primary pull-right" title="Caraterizar" style="margin-top:10px">
+                            <span class="fa fa-cogs" aria-hidden="true" title="Caraterizar"></span> Caraterizar
+                        </button>
+                        <button id="btnSearchM" type="button" class="btn btn-secondary pull-right" title="Buscar" style="margin-top:10px; margin-right:10px;">
+                            <span class="fa fa-search" aria-hidden="true" title="Buscar"></span> Buscar
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox">
+            <div class="ibox-title">
+                <h5>Coladas por rango de fecha</h5>
+            </div>
+            <div class="ibox-content">
+                <div class="table-responsive-md">
+                    <form id="frmColadasPorRango">
+                        <table style="display:none;" id="tbColadaPorRango" class="table table-bordered table-striped table-sm" data-show-export="true" data-pagination="true" data-page-size="20" data-mobile-responsive="true"
+                               data-show-refresh="false" data-show-toggle="true" data-show-columns="true" data-locale="es-MX" data-height="800px"
+                               data-header-style="headerStyle" data-search="true" data-checkbox-header="false" data-id-field="cla_colada" data-select-item-name="id">
+                            <thead>
+                                <tr>
+                                    <th data-visible="true" data-sortable="false" data-field="SeleccionadoSN" data-checkbox="true" data-show-select-title="true" data-align=" center">Marcar</th>
+                                    <th data-visible="true" data-sortable="false" data-field="clave_alfanumerica" data-align="center">Horno Fusión</th>
+                                    <th data-visible="true" data-sortable="true" data-field="cla_colada" data-align="center">No. Colada</th>
+                                    <th data-visible="true" data-sortable="false" data-field="fecha_administrativa" data-align="center">Fecha</th>
+                                    <th data-visible="true" data-sortable="false" data-field="fhr_ini" data-align="center">Hora Inicio</th>
+                                    <th data-visible="true" data-sortable="false" data-field="fhr_fin" data-align="center">Hora Final</th>
+                                    <th data-visible="false" data-sortable="false" data-field="turno" data-align="center">Turno</th>
+                                    <th data-visible="true" data-sortable="false" data-field="grado" data-align="center">Grado Acero</th>
+                                    <th data-visible="false" data-sortable="false" data-field="tcotcm" data-align="center">+Total TCM</th>
+                                    <th data-visible="false" data-sortable="false" data-field="tpo_min_con" data-align="center">T. Conectado</th>
+                                    <th data-visible="false" data-sortable="false" data-field="tcokwh" data-align="center">+Total KWH</th>
+                                    <th data-visible="false" data-sortable="false" data-field="KWHTCM" data-align="center">KWH/TCM</th>
+                                    <th data-visible="false" data-sortable="false" data-field="mw_prom" data-align="center">MW/Prom</th>
+                                    <th data-visible="true" data-sortable="false" data-field="tpo_vac_vac" data-align="center">T.VAC-V</th>
+                                    <th data-visible="false" data-sortable="false" data-field="TotalO2" data-align="center">+Total O2</th>
+                                    <th data-visible="false" data-sortable="false" data-field="exp_7" data-align="center">O2 Instantáneo</th>
+                                    <th data-visible="false" data-sortable="false" data-field="exp_8" data-align="center">Factor O2</th>
+                                    <th data-visible="false" data-sortable="false" data-field="exp_9" data-align="center">Eficiencia O2</th>
+                                    <th data-visible="false" data-sortable="false" data-field="TotalCH4" data-align="center">+Total CH4</th>
+                                    <th data-visible="false" data-sortable="false" data-field="TotalC" data-align="center">+Total C</th>
+                                    <th data-visible="false" data-sortable="false" data-field="TotalCal" data-align="center">+Total Cal</th>
+                                    <th data-visible="false" data-sortable="false" data-field="temp_bm" data-align="center">Temperatura B/M</th>
+                                    <th data-visible="false" data-sortable="false" data-field="celox_bm" data-align="center">Celox B/M</th>
+                                    <th data-visible="false" data-sortable="false" data-field="muestra_bm" data-align="center">Muestra B/M</th>
+                                    <th data-visible="false" data-sortable="false" data-field="muestra_temp" data-align="center">1a. Temp</th>
+                                    <th data-visible="false" data-sortable="false" data-field="muestra_ppmo2" data-align="center">1a. PPM [O2]</th>
+                                    <th data-visible="false" data-sortable="false" data-field="temp_vac" data-align="center">Temp Vac</th>
+                                    <th data-visible="false" data-sortable="false" data-field="ppm_o2_vac" data-align="center">PPM[O2] V</th>
+                                    <th data-visible="false" data-sortable="false" data-field="ppm_n2_vac" data-align="center">PPM[N]</th>
+                                    <th data-visible="false" data-sortable="false" data-field="num_muestra" data-align="center">No. Muestras</th>
+                                    <th data-visible="false" data-sortable="false" data-field="kg_fierro_esp_silo" data-align="center">Fe Esponja</th>
+                                    <th data-visible="false" data-sortable="false" data-field="arrabio" data-align="center">Arrabio</th>
+                                    <th data-visible="false" data-sortable="false" data-field="FeO" data-align="center">%FeO</th>
+                                    <th data-visible="true" data-sortable="false" data-field="tiempo_vac" data-align="center">Tiempo Vac</th>
+                                    <th data-visible="true" data-sortable="false" data-field="remanente" data-align="center">Remanente</th>
+                                    <th data-visible="false" data-sortable="false" data-field="tco_aceliq" data-align="center">Acero Líquido</th>
+                                    <th data-visible="false" data-sortable="false" data-field="TPQB" data-align="center">+TPQB</th>
+                                    <th data-visible="true" data-sortable="false" data-field="TPQB_TCM" data-align="center" data-formatter="decimalFormatter">RDMTO</th>
+                                    <th data-visible="false" data-sortable="false" data-field="grupoTrabajo" data-align="center">Grupo Trabajo</th>
+                                    <th data-visible="false" data-sortable="false" data-field="tecnico" data-align="center">Técnico</th>
+                                    <th data-visible="false" data-sortable="false" data-field="temp_ent" data-align="center">Temp. Entrada HA</th>
+                                    <th data-visible="false" data-sortable="false" data-field="ppm_o" data-align="center">PPM[0] HA 1a Muestra</th>
+                                    <th data-visible="false" data-sortable="false" data-field="ppm_n" data-align="center">PPM[N] HA 1a Muestra</th>
+                                    <th data-visible="false" data-sortable="false" data-field="lquim_c" data-align="center">%C HA 1a Muestra</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="mdlCaracterizacion" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <label>Resultado de caracterización</label>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <label id="lblColadas"></label>
+
+                <table style="display:none;" id="tbCaracterizacion" class="table table-bordered table-striped table-sm" data-show-export="true" data-pagination="true" data-page-size="20" data-mobile-responsive="true"
+                       data-show-refresh="false" data-show-toggle="true" data-show-columns="true" data-locale="es-MX" data-height="800px"
+                       data-header-style="headerStyle" data-search="true">
+                    <thead>
+                        <tr>
+                            <th data-visible="true" data-sortable="true" data-field="ClaveChat" data-align="center">Clave</th>
+                            <th data-visible="true" data-sortable="false" data-field="NomProductoChat" data-align="center">Chatarra</th>
+                            <th data-visible="true" data-sortable="false" data-field="ClasificacionChat" data-align="center">Clasificación</th>
+                            <th data-visible="true" data-sortable="false" data-field="CU" data-align="center">CU</th>
+                            <th data-visible="true" data-sortable="false" data-field="CR" data-align="center">CR</th>
+                            <th data-visible="true" data-sortable="false" data-field="NI" data-align="center">NI</th>
+                            <th data-visible="true" data-sortable="false" data-field="MO" data-align="center">MO</th>
+                            <th data-visible="true" data-sortable="false" data-field="SN" data-align="center">SN</th>
+                            <th data-visible="true" data-sortable="false" data-field="P" data-align="center">P</th>
+                            <th data-visible="true" data-sortable="false" data-field="S" data-align="center">S</th>
+                            <th data-visible="true" data-sortable="false" data-field="Rdmt" data-align="center" data-formatter="decimalFormatter">Rdmt</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                @*<button type="button" class="btn btn-primary" id="btSaveNewDocument">@localizer["lbtSave"]</button>*@
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<link href="~/Content/lib/bootstrap-table/bootstrap-table.min.css" rel="stylesheet" />
+<script src="~/Scripts/lib/bootstrap-table/bootstrap-table.min.js"></script>
+<script src="~/Scripts/lib/moment-with-locales.min.js"></script>
+<script src="~/Scripts/lib/daterangepicker.js"></script>
+<script src="~/Scripts/lib/select2.min.js"></script>
+<script src="~/Scripts/lib/select2.lang/es.js"></script>
+
+<script src="~/Scripts/lib/bootstrap-table/tableExport.min.js"></script>
+<script src="~/Scripts/lib/bootstrap-table/bootstrap-table-export.min.js"></script>
+<script src="~/Scripts/lib/bootstrap-table/locale/bootstrap-table-es-MX.min.js"></script>
+<script src="~/Scripts/lib/bootstrap-table/extensions/toolbar/bootstrap-table-toolbar.min.js"></script>
+
+
+<script src="~/Scripts/Modules/CaracterizacionChatarra/CaracterizacionChatarra.js"></script>

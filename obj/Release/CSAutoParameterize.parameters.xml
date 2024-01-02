@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DBString-Web.config Connection String" description="DBString Connection String used in web.config by the application to access the database." defaultValue="Data Source=operceldb;Initial Catalog=aceriascons;User ID=sopacerias;Password=sopacerias" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Code\\Equipo\ -\ ER\ -\ Git\\trunk\\Code\\AceriasMvc\\AceriasMvc\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DBString']/@connectionString" />
+  </parameter>
+</parameters>

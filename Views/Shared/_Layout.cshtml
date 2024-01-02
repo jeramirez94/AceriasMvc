@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Acerias</title>
+
+
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+        <link href="~/Content/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+        <link href="~/Content/animate.css" rel="stylesheet">
+        <link href="~/Content/style.css" rel="stylesheet">
+        <link href="~/Content/lib/toast.css" rel="stylesheet" />
+
+        <!-- Mainly scripts -->
+        <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+        <script src="~/Scripts/popper.min.js"></script>
+        <script src="~/Scripts/bootstrap.js"></script>
+        <script src="~/Scripts/plugins/metisMenu/jquery.metisMenu.js"></script>
+        <script src="~/Scripts/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+        <script src="~/Scripts/lib/toast.js"></script>
+
+        <!-- jQuery UI -->
+        <script src="~/Scripts/plugins/jquery-ui/jquery-ui.min.js"></script>
+
+        <script src="~/Scripts/Modules/General/GeneralFunctions.js"></script>
+
+        <style type="text/css">
+            .jqstooltip {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                visibility: hidden;
+                background: rgb(0, 0, 0) transparent;
+                background-color: rgba(0,0,0,0.6);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+                -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+                color: white;
+                font: 10px arial, san serif;
+                text-align: left;
+                white-space: nowrap;
+                padding: 5px;
+                border: 1px solid white;
+                z-index: 10000;
+            }
+
+            .jqsfield {
+                color: white;
+                font: 10px arial, san serif;
+                text-align: left;
+            }
+        </style>
+    </head>
+
+    <body class="pace-done">
+        <div class="pace  pace-inactive">
+            <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+                <div class="pace-progress-inner"></div>
+            </div>
+            <div class="pace-activity"></div>
+        </div>
+        <div id="wrapper">
+
+            @Html.Partial("~/Views/Shared/_SidebarPartial.cshtml")
+
+            <div id="page-wrapper" class="gray-bg">
+            
+                @Html.Partial("~/Views/Shared/_HeaderPartial.cshtml")
+
+                <div class="wrapper wrapper-content">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="ibox ">
+
+                                <!--here all body-->
+                                @RenderBody()
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="footer fixed" >
+                    <div class="float-right">
+                        Todos los derechos reservados
+                    </div>
+                    <div>
+                        <strong>Deacero ©</strong> @DateTime.Now.Year
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Custom and plugin javascript -->
+        <script src="~/Scripts/custom-site.js"></script>
+        <script src="~/Scripts/plugins/pace/pace.min.js"></script>
+    </body>
+</html>

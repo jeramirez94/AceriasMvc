@@ -1,0 +1,164 @@
+﻿@{
+    ViewBag.ActivePage = 2;
+    ViewBag.ActiveMenu = 1;
+    ViewBag.Title = "Densidad y Volumen";
+}
+
+<link href="~/Content/lib/daterangepicker.css" rel="stylesheet" />
+<link href="~/Content/lib/select2.min.css" rel="stylesheet" />
+<style>
+    .row {
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="ibox">
+            <div class="ibox-title bg-title">
+                <h5>Filtros</h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="ibox-content">
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-xl-3 col-md-3 col-sm-6 col-xs-6 divFechas">
+                        <label for="FechaInicial" class="form-label">Fecha inicial</label>
+                        <input type="text" class="form-control input-sm calendar required_value" id="FechaInicial" name="FechaInicial">
+                    </div>
+                    <div class="col-lg-3 col-xl-3 col-md-3 col-sm-6 col-xs-6 divFechas">
+                        <label for="FechaFinal" class="form-label">Fecha final</label>
+                        <input type="text" class="form-control input-sm calendar required_value" id="FechaFinal" name="FechaFinal">
+                    </div>
+
+                    <div class="col-lg-3 col-xl-3 col-md-3 col-sm-6 col-xs-6">
+                        <label for="ClaHorno" class="form-label mx-sm-1">Horno</label>
+                        <select class="form-control  required_value" id="ClaHorno" name="ClaHorno" required="required"></select>
+                    </div>
+                </div>
+
+                <div class="row" style="margin: 0px">
+                    <div class="col-12 ">
+                        <button id="btnSearchM" type="button" class="btn btn-secondary pull-right" title="Buscar" style="margin-top:10px; margin-right:10px;">
+                            <span class="fa fa-search" aria-hidden="true" title="Buscar"></span> Buscar
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="ibox tabs-container">
+            <div class="ibox-title bg-title">
+                <ul class="nav nav-tabs bg-title" role="tablist">
+                    <li><a class="nav-link active" data-toggle="tab" href="#tab-1">A1 Diario</a></li>
+                    <li><a class="nav-link" data-toggle="tab" href="#tab-2">Agrupado por cargas</a></li>
+                    <li><a class="nav-link" data-toggle="tab" href="#tab-3">Agrupado por semanas</a></li>
+                </ul>
+
+                <div class="ibox-tools">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="ibox-content tabs-container">
+
+                    <div class="tab-content">
+                        <div role="tabpanel" id="tab-1" class="tab-pane active">
+                            <div class="table-responsive-md">
+                                <table style="display:none;" id="tbA1Diario" class="table table-bordered table-striped table-sm" data-show-export="true" data-pagination="true" data-page-size="20" data-mobile-responsive="true"
+                                       data-show-refresh="false" data-show-toggle="true" data-show-columns="true" data-locale="es-MX" data-height="800px"
+                                       data-header-style="headerStyle" data-search="false" data-checkbox-header="false" data-select-item-name="id"
+                                       data-reorderable-columns="true">
+                                    <thead>
+                                        <tr>
+                                            <th data-visible="true" data-sortable="true" data-field="FechaAdministrativa" data-align="center" data-formatter="dateFormatter">Fecha</th>
+                                            <th data-visible="true" data-sortable="true" data-field="ClaHorno" data-align="center">Horno</th>
+                                            <th data-visible="true" data-sortable="true" data-field="ClaColada" data-align="center">No. Colada</th>
+                                            <th data-visible="true" data-sortable="true" data-field="GrupoCH" data-align="center">Grupo CH</th>
+                                            <th data-visible="true" data-sortable="true" data-field="ClaNumCarga" data-align="center"># Cargas</th>
+                                            <th data-visible="true" data-sortable="true" data-field="TPQB" data-align="center" data-formatter="sixDecimalFormatter">TPQB</th>
+                                            <th data-visible="true" data-sortable="true" data-field="Vac_Vac" data-align="center" data-formatter="sixDecimalFormatter">VacVac</th>
+                                            <th data-visible="true" data-sortable="true" data-field="TMC" data-align="center" data-formatter="sixDecimalFormatter">TMC</th>
+                                            <th data-visible="true" data-sortable="true" data-field="TonTriturado" data-align="center" data-formatter="decimalFormatter">T Triturado</th>
+                                            <th data-visible="true" data-sortable="true" data-field="TonArrabio" data-align="center" data-formatter="decimalFormatter">T Arabio</th>
+                                            <th data-visible="true" data-sortable="true" data-field="TonChorreadura" data-align="center" data-formatter="decimalFormatter">T Chorreadura</th>
+                                            <th data-visible="true" data-sortable="true" data-field="TonRetornoAceria" data-align="center" data-formatter="decimalFormatter">T RetAceria</th>
+                                            <th data-visible="true" data-sortable="true" data-field="Densidad" data-align="center" data-formatter="sixDecimalFormatter">Densidad</th>
+                                            <th data-visible="true" data-sortable="true" data-field="Volumen" data-align="center" data-formatter="sixDecimalFormatter">Volumen</th>
+                                            <th data-visible="false" data-sortable="false" data-field="Anio" data-align="center">Año</th>
+                                            <th data-visible="false" data-sortable="false" data-field="Mes" data-align="center">Mes</th>
+                                            <th data-visible="false" data-sortable="false" data-field="Semana" data-align="center">Semana</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                        <div role="tabpanel" id="tab-2" class="tab-pane ">
+                            @*<table id="tableTree"></table>*@
+
+                            <div class="table-responsive-md">
+                                <table style="display:none;" id="tableGroupByLoads" class="table table-bordered table-striped table-sm" data-show-export="true"
+                                       data-pagination="false" data-page-size="200" data-mobile-responsive="true"
+                                       data-show-refresh="false" data-show-toggle="true" data-show-columns="true" data-locale="es-MX" data-height="800px"
+                                       data-header-style="headerStyle" data-search="true" data-checkbox-header="false" data-select-item-name="id"
+                                       data-reorderable-columns="true"></table>
+                            </div>
+                        </div>
+                        <div role="tabpanel" id="tab-3" class="tab-pane ">
+                            <div class="table-responsive-md">
+                                <table style="display:none;" id="tableGroupByWeeks" class="table table-bordered table-striped table-sm" data-show-export="true"
+                                       data-pagination="false" data-page-size="200" data-mobile-responsive="true"
+                                       data-show-refresh="false" data-show-toggle="true" data-show-columns="true" data-locale="es-MX" data-height="800px"
+                                       data-header-style="headerStyle" data-search="true" data-checkbox-header="false" data-select-item-name="id"
+                                       data-reorderable-columns="true" ></table>
+                            </div>
+                        </div>
+                    </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<link href="~/Content/lib/bootstrap-table/treegrid.css" rel="stylesheet" />
+<link href="~/Content/lib/bootstrap-table/bootstrap-table.min.css" rel="stylesheet" />
+<link href="~/Content/lib/bootstrap-table/dragtable.css" rel="stylesheet" />
+
+<script src="~/Scripts/lib/bootstrap-table/treegrid.js"></script>
+<script src="~/Scripts/lib/bootstrap-table/dragtable.js"></script>
+
+<script src="~/Scripts/lib/bootstrap-table/bootstrap-table.min.js"></script>
+<script src="~/Scripts/lib/moment-with-locales.min.js"></script>
+<script src="~/Scripts/lib/daterangepicker.js"></script>
+<script src="~/Scripts/lib/select2.min.js"></script>
+<script src="~/Scripts/lib/select2.lang/es.js"></script>
+
+<script src="~/Scripts/lib/bootstrap-table/tableExport.min.js"></script>
+<script src="~/Scripts/lib/bootstrap-table/bootstrap-table-export.min.js"></script>
+<script src="~/Scripts/lib/bootstrap-table/locale/bootstrap-table-es-MX.min.js"></script>
+
+<script src="~/Scripts/lib/bootstrap-table/extensions/toolbar/bootstrap-table-toolbar.min.js"></script>
+<script src="~/Scripts/lib/bootstrap-table/extensions/treegrid/bootstrap-table-treegrid.js"></script>
+<script src="~/Scripts/lib/bootstrap-table/extensions/reorder-columns/bootstrap-table-reorder-columns.min.js"></script>
+
+<script src="~/Scripts/Modules/Patios/DensidadVolumen.js"></script>
+
+
+<style>
+    bgBlack {
+        background: #2b2b2b; 
+        color: #FFFFFF;
+    }
+</style>

@@ -1,0 +1,160 @@
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\HGI.dll.config
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\HGI.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\HGI.pdb
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\Antlr3.Runtime.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\DotNetOpenAuth.Core.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\EntityFramework.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\Microsoft.Data.Edm.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\Microsoft.Data.OData.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\Newtonsoft.Json.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\System.Spatial.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\System.Web.Helpers.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\System.Web.Http.OData.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\System.Web.Mvc.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\System.Web.Optimization.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\System.Web.Razor.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\System.Web.WebPages.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\System.Web.WebPages.Razor.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\WebGrease.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\WebMatrix.Data.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\WebMatrix.WebData.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\EntityFramework.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\Newtonsoft.Json.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\System.Web.Helpers.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\System.Web.Mvc.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\System.Web.Razor.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\System.Web.WebPages.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\System.Web.WebPages.Razor.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\WebMatrix.Data.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\WebMatrix.WebData.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\DotNetOpenAuth.Core.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\System.Web.Http.OData.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\Microsoft.Data.Edm.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\Microsoft.Data.OData.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\System.Spatial.xml
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\de\System.Spatial.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\es\System.Spatial.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\fr\System.Spatial.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\it\System.Spatial.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\ja\System.Spatial.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\ko\System.Spatial.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\ru\System.Spatial.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\obj\Debug\HGI.csprojResolveAssemblyReference.cache
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\obj\Debug\HGI.dll
+C:\Users\jeramirez\Documents\Visual Studio 2013\Projects\HGI\HGI\obj\Debug\HGI.pdb
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\HGI.dll.config
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\HGI.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\HGI.pdb
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\Antlr3.Runtime.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\DotNetOpenAuth.AspNet.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\DotNetOpenAuth.Core.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\DotNetOpenAuth.OAuth.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\DotNetOpenAuth.OpenId.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\EntityFramework.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\Microsoft.Data.Edm.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\Microsoft.Data.OData.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\Microsoft.Web.Infrastructure.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\Newtonsoft.Json.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\System.Spatial.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\System.Web.Helpers.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\System.Web.Http.OData.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\System.Web.Mvc.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\System.Web.Optimization.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\System.Web.Razor.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\System.Web.WebPages.Deployment.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\System.Web.WebPages.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\System.Web.WebPages.Razor.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\WebGrease.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\WebMatrix.Data.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\WebMatrix.WebData.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\EntityFramework.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\Newtonsoft.Json.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\System.Web.Helpers.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\System.Web.Mvc.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\System.Web.Razor.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\System.Web.WebPages.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\System.Web.WebPages.Deployment.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\System.Web.WebPages.Razor.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\WebMatrix.Data.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\WebMatrix.WebData.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\DotNetOpenAuth.AspNet.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\DotNetOpenAuth.Core.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\DotNetOpenAuth.OAuth.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\DotNetOpenAuth.OpenId.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\System.Web.Http.OData.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\Microsoft.Data.Edm.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\Microsoft.Data.OData.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\System.Spatial.xml
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\de\Microsoft.Data.OData.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\es\Microsoft.Data.OData.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\it\Microsoft.Data.OData.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\de\System.Spatial.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\es\System.Spatial.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\fr\System.Spatial.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\it\System.Spatial.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\ja\System.Spatial.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\ko\System.Spatial.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\ru\System.Spatial.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\zh-Hans\System.Spatial.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\bin\zh-Hant\System.Spatial.resources.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\obj\Debug\HGI.csprojResolveAssemblyReference.cache
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\obj\Debug\HGI.dll
+C:\Code\Equipo - ER - Git\trunk\Code\HGI\HGI\obj\Debug\HGI.pdb
